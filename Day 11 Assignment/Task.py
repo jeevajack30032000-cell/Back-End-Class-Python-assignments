@@ -61,7 +61,7 @@ while Mark<0 or Mark>100:
 #Key Concept: Placing one decision inside another to handle complex dependency logic.
 
 account_balance = 100000
-print("")
+print("account_balance =",account_balance)
 cash_withdrawal=int(input("enter the amount: "))
 
 if cash_withdrawal>0:
